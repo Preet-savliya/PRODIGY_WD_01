@@ -1,0 +1,56 @@
+/* product1 category page */
+
+section .products .heading h2 {
+    font-size: 40px;
+  }
+  
+  section .container .box{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    border: 1px solid #B42134;
+    color: black;
+  }
+
+  section .container a{
+    text-decoration: none;
+  }
+  
+  section .products .box .image img{
+    height: 300px;
+    width: auto;
+    margin-top: 20px;
+  }
+  
+  section .products .box .content{
+    margin-left: 300px;
+    margin-top: -320px;
+    padding: 20px;
+  }
+  
+  section .products .box .content .p1{
+    font-size: 16px;
+  }
+  
+  section .products .box .content .p2{
+    font-size: 24px;
+  }
+  
+  section .products .box .content .fas, 
+  section .products .box .content .far{
+    color: #FFA800;
+  }
+  
+  section .products .box .content .price{
+    font-size: 25px;
+    font-weight: bold;
+  }
+  
+  section .products .box .content .line {
+    text-decoration: line-through;
+  }
+
+  section .products .box .content .bold {
+    font-weight: bold;
+  }
